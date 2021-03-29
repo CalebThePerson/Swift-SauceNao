@@ -11,7 +11,7 @@ let package = Package(
             targets: ["Swift-SauceNao"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.2"),
+        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.2.0"),
     ],
     targets: [
         .target(
